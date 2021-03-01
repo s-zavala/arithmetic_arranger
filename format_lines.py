@@ -1,7 +1,12 @@
 def format_lines(mainDict, solution):
     """
-    Args: the mainDict and a bool for solution.
-    Returns a list of four lines.
+    Format problems vertically.
+
+    Args:
+    mainDict --- a main dict
+    solution -- True (to display the answer) or False(to obscure it)
+    Returns:
+    lines -- a list of four formated lines.
     Line 1 reformats the first operand.
     Line 2 reformats the operator and the second operand.
     Line 3 adds dashes for visual ease.

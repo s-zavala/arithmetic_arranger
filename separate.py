@@ -1,9 +1,14 @@
 def separate(prob):
     """
-    Takes one problem string from the probList.
-    Returns a list of terms: the first operand, second operand, the + or - sign.
-    Also the length of the operands and the column width.
+    Separate each problem into its components.
+
+    Args:
+    prob -- a problem string
+    Returns:
+    probDict -- a dict of keys that describe the problem components,
+    and values which are ints for each component.
     """
+    
     fieldKey=['probStr','term1','term2', 'operator', 'len1', 'len2', 'colWidth']
     terms=[prob]
     if ' + ' in prob:

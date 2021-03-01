@@ -1,9 +1,11 @@
 def answer(mainDict):
     """
-    Args: mainDict
-    Returns: mainDict with added key/value pairs for each problem.
-        key: 'sum'
-        value: problem solution as an int
+    Updates the main dict key 'sum' for each problem with value of the answer as a str.
+
+    Args:
+    mainDict -- a main dict
+    Returns:
+    mainDict -- updated main dict with key 'sum' and value of the solution as a str.
     """
     for prob in mainDict.keys():
         term1 = int(mainDict[prob]['term1'])

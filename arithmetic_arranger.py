@@ -10,11 +10,11 @@ from separate import separate
 from answer import answer
 from format_lines import format_lines
 
-def arithmetic_arranger(problems, solution = False):
+def arithmetic_arranger(problems, solution=False):
     """
-    Takes a list of addition or subtraction problems and reformats the problems vertically for easy reading.
+    Takes a list of addition or subtraction problems and reformats the
+    problems vertically for easy reading.
     """
-    fieldKey=['probStr','term1','term2', 'operator', 'len1', 'len2', 'colWidth', 'sum']
     mainDict = {}
 
     # Test problems argument for five or fewer elements.
